@@ -1,0 +1,14 @@
+baseURL = 'https://blog.junjie.pro/'
+languageCode = 'zh-cn'
+title = '希灵六号舰'
+
+[module]
+  [[module.imports]]
+    path = "github.com/nanxiaobei/hugo-paper"
+
+[params]
+  name = '主机N-CCER-06'
+  bio = '主机全面启动，核心就绪，本舰待命中。'
+
+  github = 'junjieyuan'
+  rss = true
