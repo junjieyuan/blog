@@ -49,3 +49,5 @@ rpm-ostree initramfs --enable --arg="--add-drivers" --arg="vfio vfio_iommu_type1
 # 参考文献
 
 1. [Configuring GPU Pass-Through for NVIDIA cards](https://doc.opensuse.org/documentation/leap/virtualization/html/book-virtualization/app-gpu-passthru.html)
+2. [FS#77668 - vfio_virqfd missing in linux-6.2.1.arch1-1](https://bugs.archlinux.org/task/77668)
+3. [vfio: Fold vfio_virqfd.ko into vfio.ko](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e2d55709398e62cf53e5c7df3758ae52cc62d63a)
