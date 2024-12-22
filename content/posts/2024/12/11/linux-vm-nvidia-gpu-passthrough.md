@@ -1,6 +1,8 @@
 ---
 title: "把英伟达显卡直通给Linux虚拟机"
 date: 2024-12-22T21:49:15+08:00
+categories: ["Linux", "虚拟机"]
+tags: ["GPU", "直通"]
 draft: false
 ---
 

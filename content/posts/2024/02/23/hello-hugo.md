@@ -1,6 +1,8 @@
 ---
 title: "你好，Hugo"
 date: 2024-02-23T00:21:35+08:00
+categories: ["博客"]
+tags: ["Hugo", "博客"]
 draft: false
 ---
 

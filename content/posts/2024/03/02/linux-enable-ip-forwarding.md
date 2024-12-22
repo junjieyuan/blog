@@ -1,6 +1,8 @@
 ---
 title: "Linux开启IP转发"
 date: 2024-03-02T17:38:00+08:00
+categories: ["Linux"]
+tags: ["网络", "IP转发"]
 draft: false
 ---
 
