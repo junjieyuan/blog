@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes NFS CSI 踩坑：FCOS + NFSv4.2 的那些坑"
-date: 2026-06-10T23:00:00+08:00
+date: 2026-06-10T16:46:27+08:00
 categories: ["Kubernetes"]
 tags: ["NFS", "CSI", "FCOS"]
 draft: false
