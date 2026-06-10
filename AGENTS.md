@@ -26,6 +26,7 @@ hugo                # build to public/
 ## Theme & modules
 
 - Theme is pulled via Hugo Modules, tracked in `go.mod` (`require github.com/nanoxiaobei/hugo-paper`).
+- Keep the theme updated: `hugo mod get -u github.com/nanoxiaobei/hugo-paper` then `hugo mod tidy`.
 - Do not add `layouts/` or `assets/` overrides unless necessary — the theme handles everything.
 - If adding a new Hugo module, run `hugo mod get` not manual `go get`.
 
