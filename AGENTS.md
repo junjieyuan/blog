@@ -20,6 +20,7 @@ hugo                # build to public/
 - Frontmatter date includes timezone: `date: 2026-06-10T23:00:00+08:00`.
 - Frontmatter uses TOML-style delimiters (`---`).
 - Optional fields: `categories` (list), `tags` (list). Both use square-bracket TOML syntax: `categories: ["A"]`, `tags: ["X", "Y"]`.
+- Use `hugo new posts/YYYY/MM/DD/slug.md` to scaffold — the archetype at `archetypes/default.md` sets the correct date format and placeholders.
 
 ## Theme & modules
 
@@ -29,4 +30,4 @@ hugo                # build to public/
 
 ## Language
 
-Content is written in Chinese (`languageCode = 'zh-cn'`). Keep frontmatter titles and user-facing text in Chinese unless there's a good reason otherwise.
+Content is written in Chinese (`locale = 'zh-CN'`). Keep frontmatter titles and user-facing text in Chinese unless there's a good reason otherwise.
