@@ -16,7 +16,7 @@ hugo                # build to public/
 
 ## Content conventions
 
-- Posts live at `content/posts/YYYY/MM/DD/slug.md`.
+- Posts MUST live at `content/posts/YYYY/MM/DD/slug.md` (e.g. `content/posts/2024/12/11/gpu-passthrough.md`). The YYYY/MM/DD in the path must match the frontmatter date.
 - Frontmatter date includes timezone: `date: 2026-06-10T23:00:00+08:00`.
 - Frontmatter uses TOML-style delimiters (`---`).
 - Optional fields: `categories` (list), `tags` (list). Both use square-bracket TOML syntax: `categories: ["A"]`, `tags: ["X", "Y"]`.
