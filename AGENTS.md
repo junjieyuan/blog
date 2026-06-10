@@ -12,6 +12,7 @@ hugo                # build to public/
 ```
 
 - `-D` / `--buildDrafts` must be passed to preview posts with `draft: true`.
+- Hugo skips posts with a `date` in the future (default `buildFuture = false`). Set the frontmatter date to a past time, or a scheduled deploy will miss it. Pass `-D -F` to preview both drafts and future posts locally.
 - Output goes to `public/` — it's gitignored.
 
 ## Content conventions
