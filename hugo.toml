@@ -1,13 +1,15 @@
 baseURL = 'https://blog.junjie.pro/'
-languageCode = 'zh-cn'
-title = '希灵六号舰'
+locale = 'zh-CN'
+title = '原俊杰的博客'
+hasCJKLanguage = true
+enableRobotsTXT = true
 
 [module]
   [[module.imports]]
     path = "github.com/nanxiaobei/hugo-paper"
 
 [params]
-  name = '主机N-CCER-06'
+  name = '原俊杰'
   bio = '主机全面启动，核心就绪，本舰待命中。'
 
   github = 'junjieyuan'
