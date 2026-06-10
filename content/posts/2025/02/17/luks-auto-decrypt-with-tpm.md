@@ -2,7 +2,7 @@
 title: "使用TPM自动解密LUKS分区"
 date: 2025-02-17T18:00:50+08:00
 categories: ["Linux"]
-tags: ["LUKS", "TPM2", "Linux", "systemd"]
+tags: ["LUKS", "TPM2", "systemd"]
 draft: false
 ---
 
