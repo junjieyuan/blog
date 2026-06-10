@@ -1,7 +1,9 @@
 ---
 title: "Kubernetes NFS CSI 踩坑：FCOS + NFSv4.2 的那些坑"
 date: 2026-06-10T23:00:00+08:00
-draft: true
+categories: ["Kubernetes"]
+tags: ["NFS", "CSI", "FCOS"]
+draft: false
 ---
 
 家里的 K8s 集群跑在三台 Fedora CoreOS 虚拟机上，一直没搞持久化存储。这周末抽空搭了个 NFS 存储服务器，整个过程以为半小时搞定，结果断断续续折腾了一下午。NFSv4 的伪文件系统平时没怎么关注，这次真是被教做人了。
